@@ -1,20 +1,18 @@
 //Oppgaveset1//
  //Console.log statements//
-console.log("Hello, World!");
+console.log("Hello, World!"); 
 console.log("CCM!");
 console.log("Mark");
-console.log("lowkkickpoint");
 //Strings//
     console.log("Mark Brauska er født i året " + 2009 + " og er " + 16 + " år gammel!");
-    //Oppgaveset2//
+//Oppgaceset2//
      //Variables//
      let alder;             //deklarere variabel//
      alder = 16               //initialisere variabel// 
   console.log(alder)  
      let birthyear=2009 //deklarere and initialisere variabel//
      let firstname="Mark" //deklratere and initialisere variabel//
-   console.log(birthyear)
-   
+   console.log(birthyear)  
         //Const info//
         const yearOfBirth=2009; //deklarere og initialisere konstant//
         console.log(yearOfBirth);
@@ -24,17 +22,22 @@ console.log("lowkkickpoint");
         console.log(isStudentfromvgs);
         const ishockeyplayer=true //deklarere og initialisere konstant//
         console.log(ishockeyplayer);
-        const isWorker=false //deklarere og initialisere konstant//
-
-        console.log(isWorker);
-    //Datatyper//      
-    console.log(typeof alder); //number//
-    console.log(typeof "16") //string//
-    console.log(typeof birthyear); //number//
-    console.log(typeof "2009") //string//
-    console.log(typeof isStudentfromvgs); //boolean//
-    console.log(typeof "true") //string//
-    console.log(typeof yearOfBirth); //number//
-    console.log(typeof name); //string//
-    console.log(typeof ishockeyplayer); //boolean//
-    console.log(typeof isWorker); //boolean//
+    //Datatyper//  
+    console.log(typeof 42);               //number//
+    console.log(typeof "Hei");          //string//
+    console.log(typeof true);         //boolean//
+    console.log(typeof undefined);    //undefined//
+    console.log(typeof {navn: "Mark"}); //object//
+    console.log(typeof [1, 2, 3]);           //object (arrays are objects in JS)//
+    console.log(typeof function(){}); //function//
+    //Utforsk datatyper//
+    let i; //deklarer variabel//
+console.log(typeof i); //undefined//
+i = 42; //initialiserer variabel//
+console.log(typeof i); //number//
+ i="Oki" 
+ console.log(typeof i); //string//
+ i = 67;
+ console.log(typeof i); //number//
+ i = true;
+ console.log(typeof i); //boolean//
